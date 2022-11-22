@@ -1,0 +1,154 @@
+/*
+body
+{
+	min-height: 100vh;
+	overflow-x: hidden;
+}
+
+.container
+{
+	position: fixed;
+	width: 100%;
+}
+.main
+{
+	position: absolute;
+	width: calc(100% - 300px);
+	left: 300px;
+	min-height: 100vh;
+	background: var(--white);
+	transition: 0.5s;
+}
+.main.active
+{
+	width: calc(100% - 80px);
+	left: 80px;
+}
+
+*/
+
+
+.main .title3 h2
+{
+	margin-top: 20px;
+	margin-left: 80px;
+	font-size: 18px;
+}
+
+
+/* search in inventory */
+.search1
+{
+	position: relative;
+	width: 300px;
+	margin-top: 35px;
+	margin-left: -75px;
+}
+.search1 label
+{
+	position: relative;
+	width: 50%;
+	left: 50%;
+}
+.search1 label input
+{
+	width: 100%;
+	height: 28px;
+	border-radius: 20px;
+	padding: 5px 20px;
+	padding-left: 20px;
+	font-size: 15px;
+	outline: none;
+	border: 1px solid var(--black2);
+}
+.search1 label ion-icon
+{
+	position: absolute;
+	right: 0;
+	font-size: 1em;
+	border-radius: 70%;
+	width: 8%;
+	height: 30px;
+	color: var(--grey1);
+}
+
+/* three dropdown */
+select
+{
+  background-color: var(--grey1);
+  border: 1px solid darkgrey;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  position: relative;
+	border-radius: 20px;
+	margin-left: 5px;
+	float: left;
+	top: -29px;
+	left: 375px;
+
+}
+select:hover
+{
+  background-color: var(--grey1);
+}
+
+/* Add Inventory */
+.AddBtn button
+{
+  border: 1px solid darkgray; /* Grey border */
+  color: var(--grey1);
+  cursor: pointer;
+  float: right;
+  padding: 5px;
+  position: relative;
+  border-radius: 5px;
+  margin: 5px;
+  right: 70px;
+  top: -33px;
+}
+
+/* Clear floats (clearfix hack) */
+.AddBtn:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.AddBtn button:hover
+{
+  background-color: white;
+}
+.AddBtn1 button
+{
+  border: 1px solid darkgray;
+  color: var(--grey1);
+  cursor: pointer;
+  float: right;
+  padding: 5px;
+  position: relative;
+  border-radius: 5px;
+  margin: 5px;
+  right: 70px;
+  top: 10px;
+}
+
+/* Clear floats (clearfix hack) */
+.AddBtn1:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.AddBtn1 button:hover
+{
+  background-color: white;
+}
+
+.Inventory .List
+{
+	border: 2px solid darkgray;
+	width: 86%;
+	height: 330px;
+	border-radius: 10px;
+	margin: auto;
+	top: 0;
+}

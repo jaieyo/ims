@@ -1,0 +1,50 @@
+
+div .searchDB {
+	overflow: scroll;
+	padding: 5px;
+	background-color: #ffffff;
+}
+
+table{
+	table-layout: fixed;
+	border-collapse: collapse;
+	width: 100%;
+	text-align: center;
+}
+
+div .viewDB1{
+	overflow: scroll;
+	padding: 5px;
+	background-color: #ffffff;
+}
+
+div .viewDB2{
+	overflow: scroll;
+	padding: 5px;
+	background-color: #ffffff;
+}
+
+div .viewDB3{
+	overflow: scroll;
+	padding: 5px;
+	background-color: #ffffff;
+}
+
+th , td{
+	padding: 6px;
+	width: 160px;
+
+}
+
+th{
+	background-color: black;
+	color: white;
+}
+
+tr:hover {
+	background-color:#ECECEC;
+}
+
+.none{
+	width: 100%;
+}

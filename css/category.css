@@ -1,0 +1,121 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 1.6em;
+}
+.main .title3 h2
+{
+	margin-top: 20px;
+	margin-left: 80px;
+	font-size: 18px;
+}
+.container1{
+	max-width: 800px;
+	margin: 50px auto;
+}
+.tab_trigger ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+.tab_trigger button{
+	font-size: 13px;
+	margin-left: 230px;
+}
+.tab_trigger ul li{}
+.tab_trigger ul li label{
+	position: relative;
+	display: block;
+	padding: 5px 15px;
+	left: -50px;
+	margin-left: 5px;
+	cursor: pointer;
+	min-width: 100px;
+	background: #e6e6e6;
+	text-align: center;
+	font-weight: 700px;
+	text-transform: uppercase;
+	font-size: 13px;
+	border-radius: 8px 8px 0 0;
+}
+.tab_trigger ul li:nth-child(1) label{
+	background: #f0f0f0;
+}
+.tab_trigger ul li:nth-child(2) label{
+	background: #e6e6e6;
+}
+.tab_trigger ul li:nth-child(3) label{
+	background: #d9d9d9;
+}
+.tab_trigger ul li:nth-child(4) label{
+	background: #ccc;
+}
+.tab_container_wrap{
+	top: -20px;
+	width: 79%;
+	margin-left: 88px;
+	margin-top: -49px;
+}
+.tab_container_wrap input{
+	position: absolute;
+	width: 0;
+	height: 0;
+	margin: 0;
+	z-index: -100;
+	top: -1000px;
+}
+.tab_container_wrap input:checked + .tab_content_box{
+	display: block;
+}
+.tab_content_box{
+	background: #f0f0f0;
+	padding: 20px;
+	display: none;
+	height: 330px;
+}
+.tab_content_box p{
+	margin: 0 0 20px;
+}
+.tab_content_box:nth-of-type(1){
+	background: #f0f0f0;
+
+}
+.tab_content_box:nth-of-type(2){
+	background: #e6e6e6;
+}
+.tab_content_box:nth-of-type(3){
+	background: #d9d9d9;
+}
+.tab_content_box:nth-of-type(4){
+	background: #ccc;
+}
+
+.AddBtn1 button
+{
+  border: 1px solid darkgray; 
+  color: var(--grey1);
+  cursor: pointer;
+  float: right;
+  padding: 5px;
+  position: relative;
+  border-radius: 5px;
+  margin: 5px;
+  right: 132px;
+  top: 10px;
+}
+
+/* Clear floats (clearfix hack) */
+.AddBtn1:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.AddBtn1 button:hover
+{
+  background-color: white;
+}

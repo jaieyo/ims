@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.main .title3 fieldset
+{
+	width: 55%;
+	height: 530px;
+	margin-left: 20px;
+	border-radius: 10px;
+}
+.main .title3 fieldset legend
+{
+	margin-top: 20px;
+	margin-left: 50px;
+	font-size: 18px;
+}
+.main .inputField
+{
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	margin-left: 30px;
+	margin-top: 12px;
+}
+.main .inputField1
+{
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	margin-left: 170px;
+	margin-top: 12px;
+}
+.main .inputField label
+{
+	font-family: 'Poppins', sans-serif;
+	width: 150px;
+	font-size: 16px;
+	border-radius: 8px;
+}
+.main .inputField label1
+{
+	font-family: 'Poppins', sans-serif;
+	width: 150px;
+	height: 20px;
+	font-size: 16px;
+	border-radius: 8px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+.main .inputField ion-icon
+{
+	margin-top: -20px;
+	margin-left: -20px;
+}
+.main .inputField input[type=text1]
+{
+	font-family: 'Poppins', sans-serif;
+	width: 190px;
+	height: 26px;
+	font-size: 16px;
+	border-radius: 8px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	border: 1px solid var(--black2)
+}
+.main .inputField input[type=text]
+{
+	font-family: 'Poppins', sans-serif;
+	width: 190px;
+	font-size: 16px;
+	height: 26px;
+	border-radius: 8px;
+	border: 1px solid var(--black2)
+}
+.main .inputField input[type=textarea]
+{
+	font-family: 'Poppins', sans-serif;
+	width: 190px;
+	font-size: 16px;
+	border-radius: 8px;
+	height: 90px;
+	border: 1px solid var(--black2)
+}
+.main .inputField1 input[type=submit]
+{
+	font-family: 'Poppins', sans-serif;
+	width: 90px;
+	height: 26px;
+	font-size: 14px;
+	border-radius: 5px;
+	margin-top: 15px;
+	margin-left: 10px;
+	border: 1px solid var(--black2)
+}
+.main .inputField select
+{
+	font-family: 'Poppins', sans-serif;
+	width: 190px;
+	font-size: 16px;
+	border-radius: 8px;
+	height: 26px;
+}
+.main .dragpicture
+{
+	height: 130px;
+	width: 150px;
+	margin-top: -476px;
+	float: right;
+	margin-right: 32px;
+	border-radius: 7px;
+	border-style: dotted;
+	border-width: thin;
+}
+.main .dragpicture img
+{
+	object-fit: contain;
+	float: right;
+	width: 50%;
+	height: 50px;
+	margin-top: 20px;
+	margin-right: 35px;
+}
+.main .dragpicture ion-icon
+{
+	font-size: 14px;
+	margin-top: 80px;
+	margin-left: 17px;
+	width: 80%;
+	height: 90px;
+}
+.main .drag
+{
+	font-size: 12px;
+	float: right;
+	margin-right: 60px;
+	margin-top: -395px;
+	text-align: center;
+}
+.main .or
+{
+	font-size: 12px;
+	float: right;
+	margin-right: 98px;
+	margin-top: -380px;
+	justify-items: center;
+}
+.main .browse
+{
+	font-size: 13px;
+	color: red;
+	float: right;
+	margin-right: 63.5px;
+	margin-top: -367px;
+	justify-items: center;
+}
+
+/* List of Item*/
+.main .title4 fieldset
+{
+	width: 39.5%;
+	height: 530px;
+	margin-right: 20px;
+	margin-top: -530px;
+	border-radius: 10px;
+	float: right;
+}

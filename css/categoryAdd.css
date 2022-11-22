@@ -1,0 +1,121 @@
+/* inventory tags division*/
+.main .title6 fieldset
+{
+	width: 39.5%;
+	height: 270px;
+	margin-left: 78px;
+	margin-top: 40px;
+	border-radius: 10px;
+}
+.main .inputField
+{
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	margin-left: 30px;
+	margin-top: 40px;
+}
+.main .inputField1
+{
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	margin-left: 30px;
+	margin-top: 12px;
+}
+.main .inputField2
+{
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	margin-left: 30px;
+	margin-top: 12px;
+}
+.main .inputField label
+{
+	font-family: 'Poppins', sans-serif;
+	width: 150px;
+	font-size: 16px;
+	border-radius: 8px;
+}
+.main .inputField1 label
+{
+	font-family: 'Poppins', sans-serif;
+	width: 150px;
+	font-size: 16px;
+	border-radius: 8px;
+}
+.main .inputField2 label
+{
+	font-family: 'Poppins', sans-serif;
+	width: 150px;
+	font-size: 16px;
+	border-radius: 8px;
+}
+.main .inputField input[type=text]
+{
+	font-family: 'Poppins', sans-serif;
+	width: 190px;
+	font-size: 16px;
+	height: 26px;
+	border-radius: 8px;
+	border: 1px solid var(--black2)
+}
+.main .inputField1 input[type=text]
+{
+	font-family: 'Poppins', sans-serif;
+	width: 190px;
+	font-size: 16px;
+	height: 26px;
+	border-radius: 8px;
+	border: 1px solid var(--black2)
+}
+.main .inputField2 select
+{
+	font-family: 'Poppins', sans-serif;
+	width: 190px;
+	border-radius: 8px;
+	height: 26px;
+}
+.main .inputField1 input[type=submit]
+{
+	font-family: 'Poppins', sans-serif;
+	width: 90px;
+	height: 26px;
+	font-size: 14px;
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-left: 62px;
+	border: 1px solid var(--black2)
+}
+
+
+/* Generate Tags */
+.main .title4 fieldset
+{
+	width: 37%;
+	height: 250px;
+	margin-right: 90px;
+	margin-top: -402px;
+	float: right;
+}
+.main .AddBtn1 button 
+{ 
+  float: right;
+  padding: 5px;
+  position: relative;
+  border-radius: 5px;
+  margin-right: 210px;
+  margin-top: -120px;
+}
+
+/* List of Item*/
+.main .title4 fieldset
+{
+	width: 39.5%;
+	height: 400px;
+	margin-right: 70px;
+	margin-top: -272px;
+	border-radius: 10px;
+	float: right;
+}
